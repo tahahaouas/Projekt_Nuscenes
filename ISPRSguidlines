@@ -1,0 +1,26 @@
+# Prototyphafte Entwicklung einer PartikelFilter
+**Thomas Abmayr, Kai, Muhamet, Max , Taha
+*Fakultät für Geoinformation, Hochschule München, Karlstr. 6, 80333 München, Germany - tabmayr@hm.edu*
+
+**Modul Projektstudium Navigation |**
+
+---
+
+**KEY WORDS:** 
+Partikelfilter (PF)
+Landmarkennavigation 
+Bearing-only Navigation
+NuScenes Datensatz
+
+
+---
+
+## ABSTRACT:
+Ein Abstract beschreibt grundsätzlich nochmals alle Elemente, die auch Ihre darauffolgende Ausarbeitung beinhaltet. Der Aufbau des Abstracts ist wie folgt:
+
+- Schreiben Sie einen Teaser, also einen interessanten Einleitungssatz  
+- Erläutern Sie die Kernidee Ihrer Methodik  
+- Nennen Sie ggf. die Abgrenzung Ihres Ansatzes zu anderen Ansätzen  
+- Nennen Sie das Ergebnis  
+- Diskutiert das Ergebnis  
+- Fassen Sie in 1-2 Sätzen nochmals alles zusammen
