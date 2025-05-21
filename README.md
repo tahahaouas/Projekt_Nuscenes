@@ -1,20 +1,31 @@
-# Projekt_Nuscenes
-Prototyp einer Partikelfilter basierten Landmarkennavigation (Bearing-only PF) mit dem NuScenes Datensatz
-### A1: Planning & Research
-- **A1.1: Statusbericht**  
-- **A1.2: Literaturrecherche und Zeitplan**
+# Bearing-only PF Landmark Navigation with NuScenes
 
-### A2: Deep Learning & Model Export
-- **A2.1: Deep Learning basierte Landmarkendetektion**  
-- **A2.2: Export des Modells**
+<img src="results.png" width="500"/>
 
-### A3: Georeferencing & Landmark Detection
-- **A3.1: Georeferenzierung**  
-- **A3.2: Landmarken Detektion**  
-  - **A3.2.1: Richtungswinkel aus Kamera**  
-  - **A3.2.2: Partikelfilter**  
-  - **A3.2.3: Multi Kameras**  
 
-### A3.3: LSQ-Methoden
+This project implements a prototype for landmark-based navigation using a **Particle Filter** (PF) and the **NuScenes** dataset. The focus lies on **bearing-only observations** derived from camera angles and detected landmarks.
 
-### A3.4: Fusion
+## 🧠 What I Learned
+- Setting up a structured research plan and timeline
+- Deep learning for landmark detection (YOLO/Detectron2)
+- Exporting and integrating trained models
+- Georeferencing NuScenes sensor data
+- Estimating bearing angles from camera images
+- Implementing a particle filter for localization
+- Handling data from multiple cameras
+- Least Squares (LSQ) optimization techniques
+- Data fusion of multiple observations
+
+## 🛠️ Tools & Methods Used
+- Python, PyTorch, OpenCV
+- Detectron2 / YOLOv5 for landmark detection
+- NuScenes SDK for data access and visualization
+- Particle Filter implementation (custom)
+- LSQ via NumPy/SciPy
+- Git for version control
+
+## 📁 Structure (Work Packages)
+- A1: Planning & Research  
+- A2: Deep Learning & Model Export  
+- A3: Georeferencing, Landmark Detection & Fusion  
+
